@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9910d8185a7454608b71ddda2c223695
+  m_SerializeEntries:
+  - m_GUID: 94c75abad65a753429b3454d1654f063
+    m_Address: Assets/Objects/Circle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: bc0ffc923e5225544a74a594cbe09f8c
+    m_Address: Assets/Objects/Square.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: d11ebd736ba9a574e8d35add180c732d
+    m_Address: Assets/Objects/Triangle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    m_MainAsset: {fileID: 4946736673872099267, guid: d11ebd736ba9a574e8d35add180c732d, type: 3}
+    m_TargetAsset: {fileID: 4946736673872099267, guid: d11ebd736ba9a574e8d35add180c732d, type: 3}
+  - m_GUID: 28bd8c3c14d3f214da37557b91e0fa5d
+    m_Address: Assets/JMO Assets/Cartoon FX/Materials/Misc/CFX_Star Add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 7cd73ef8e5a31a244a672ae32c0f6ddb
+    m_Address: Assets/JMO Assets/Cartoon FX/Materials/Stretched/CFX_RayRounded.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: eab4ac89765b24d24b4f70c9dde1fdb3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9a308b9c7807543f2ae2294205e73f1e, type: 2}
+    - {fileID: 11400000, guid: 9942272eee6d54a8c86889f6f890231b, type: 2}
