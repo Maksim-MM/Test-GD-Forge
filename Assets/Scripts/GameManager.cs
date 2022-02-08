@@ -11,15 +11,22 @@ public class GameManager : MonoBehaviour
 
     public GameObject chatPanel, textObject;
     public InputField chatBox;
-    //public Button sendBtn;
+    public Button sendBtn;  
 
     [SerializeField]
     List<Message> messageList = new List<Message>();
 
     void Start()
     {
-        
+        sendBtn.onClick.AddListener(SendMsgOnClick); 
     }
+
+    void SendMsgOnClick() 
+    {
+        SendMessageToChat(username + ": " + chatBox.text);
+        chatBox.text = "";
+        chatBox.ActivateInputField();
+    }   
 
     void Update()
     {
@@ -36,6 +43,8 @@ public class GameManager : MonoBehaviour
         }
 
     }
+
+
 
     public void SendMessageToChat(string text)
     {
